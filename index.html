@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Windows 10 Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div>
+            <p id="equation-preview">none</p>
+            <p id="screen">0</p>
+        </div>
+        <div class="memory">
+            <button type="button" class="memory-button" disabled id="MC">MC</button>
+            <button type="button" class="memory-button" disabled id="MR">MR</button>
+            <button type="button" class="memory-button" id="Mplus">M+</button>
+            <button type="button" class="memory-button" id="Mminus">M-</button>
+            <button type="button" class="memory-button" id="MS">MS</button>
+        </div>
+        <div class="keypad">
+            <button type="button" class="functions" id="percent">%</button>
+            <button type="button" class="functions" id="CE">CE</button>
+            <button type="button" class="functions" id="C">C</button>
+            <button type="button" class="functions" id="backspace">←</button>
+
+            <button type="button" class="functions" id="denominator">1/x</button>
+            <button type="button" class="functions" id="square">x²</button>
+            <button type="button" class="functions" id="squareroot">²√x</button>
+            <button type="button" class="functions operator" id="divide">÷</button>
+
+            <button type="button" class="numbers" id="n7">7</button>
+            <button type="button" class="numbers" id="n8">8</button>
+            <button type="button" class="numbers" id="n9">9</button>
+            <button type="button" class="functions operator" id="multiply">×</button>
+
+            <button type="button" class="numbers" id="n4">4</button>
+            <button type="button" class="numbers" id="n5">5</button>
+            <button type="button" class="numbers" id="n6">6</button>
+            <button type="button" class="functions operator" id="subtract">-</button>
+
+            <button type="button" class="numbers" id="n1">1</button>
+            <button type="button" class="numbers" id="n2">2</button>
+            <button type="button" class="numbers" id="n3">3</button>
+            <button type="button" class="functions operator" id="add">+</button>
+
+            <button type="button" id="plus-minus">±</button>
+            <button type="button" class="numbers" id="n0">0</button>
+            <button type="button" id="point">.</button>
+            <button type="button" id="equals">=</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
